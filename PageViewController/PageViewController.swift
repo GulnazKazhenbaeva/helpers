@@ -1,6 +1,4 @@
 //
-//  ACBPageViewController.swift
-//  AsiaCreditBankSwift
 //
 //  Created by Kazhenbayeva Gulnaz on 11/24/17.
 //  Copyright © 2017 Kazhenbayeva Gulnaz. All rights reserved.
@@ -66,11 +64,6 @@ class PageViewController: UIPageViewController {
         setupHeaderView()
         setupDividerView()
         configPageView()
-    }
-    
-    
-    deinit {
-        print("ACBPageViewController deinit")
     }
     
 }

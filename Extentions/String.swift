@@ -96,9 +96,7 @@ extension String {
         return result
     }
     
-    /// Format string represented amount to splitted;
-    ///
-    /// Example: "1000000.5" will be formatted to "1 000 000.50"
+    /// Format string to amount view
     public var splittedAmount: String? {
         let amountString = replacingOccurrences(of: ",", with: ".")
         guard let amount = Double(amountString) else { return nil }
